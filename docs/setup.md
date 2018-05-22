@@ -211,3 +211,6 @@ Step 4. Install open face in `openface` environment using
 
 Open face is now installed. Test it with
 * `./demos/classifier.py infer models/openface/celeb-classifier.nn4.small2.v1.pkl ./images/examples/carell.jpg`
+* Expected output: 
+=== ./images/examples/carell.jpg ===
+Predict SteveCarell with 0.99 confidence.
